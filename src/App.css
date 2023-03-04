@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+
+
+body{
+  background: url("background.jpg");
+}
+
+#mainchat{  
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+
+  background-color: #efefef;
+
+  width: 95%;
+  height: 95%;
+
+  border-radius: 10px;
+  
+}
+
+#write{
+  width: 100%;
+  height: 7%;
+  position: fixed;
+  background-color: #1f1f1f;
+  top: 93%;
+  
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#inputpic{
+  position: fixed;
+  width: 3.4%;
+  height: auto;
+  left: 1%;
+}
+
+
+#inputline{
+
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+
+  position: relative;
+  border: 0px;
+
+  background-color: #1f1f1f;
+  color: #efefef;
+
+  font-size: 20px;
+  height: 80%;
+  width: 90.6%;
+  left: 50.6%;
+
+  border-radius: 10px;
+
+}
+
+#inputline:focus{
+  border: 1px solid black;
+}
+#inputline:focus{
+  outline: none;
+}
+
+
+#df{
+  position: absolute;
+  background-color: red;
+  color: red;
+  width: 100px;
+  height: 100px;
+  z-index: 100;
+}
+
+#roba{
+  position:absolute;
+  background-color: blue;
+
+  left: 95%;
+  /*top: 10%;
+  top: -10px;*/
+
+}
+
+#chatscroll{
+  position: fixed;
+  background-color: #E2DFD2;
+
+  width: 100%;
+  height: 93%;
+
+  overflow:auto;
+  overflow-x: hidden;
+
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+}
+
+@keyframes tex1 {
+  0%   {left: -50%;}
+  100% {left:5%;}
+}
+
+@keyframes pic1 {
+  0%   {left: -40%;}
+  100% {left:1%;}
+}
+
+@keyframes tex2 {
+  0%   {right: -20%;}
+  100% {right: 5%;}
+}
+
+@keyframes pic2 {
+  0%   {right: -10%;}
+  100% {right: 1%;}
+}
+
+
+#noba{
+  font-family: 'Work Sans', sans-serif;
+
+  position:absolute;
+
+  background-color: #50C878;
+  border: 25px solid #50C878;
+
+  height: auto;
+  width: auto;
+
+  right: 5%;
+  margin-top:32%;
+
+  
+
+
+
+  border-radius: 30px;
+
+  text-align-last: left;
+  text-align: left;
+
+  font-size: 200%;
+
+  animation-name: tex2;
+  animation-duration: 0.7s;
+
+  max-width: 30%;
+  max-height: 1000%;
+
+  overflow:hidden;
+
+
+}
+
+
+
+
+#coba{
+  font-family: 'Work Sans', sans-serif;
+
+  position:absolute;
+
+  background-color: #0096FF;
+  border: 25px solid #0096FF;
+
+  height: auto;
+  width: auto;
+
+  left: 5%;
+
+  border-radius: 30px;
+
+  margin-top:38%;
+  text-align-last: left;
+  text-align: left;
+  
+  font-size: 200%;
+  max-width: 50%;
+
+  animation-name: tex1;
+  animation-duration: 3s;
+
+}
+
+#botpic{
+
+  margin-top:37%;
+
+  left: 1%;
+  background-image: url('./botprofile.png');
+  background-size: contain;
+  background-color: red;
+
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  z-index: 100;
+
+  border: none;
+  border-width: 0px;
+
+  border-radius: 50%;
+
+  animation-name: pic1;
+  animation-duration: 3s;
+
+}
+
+#userpic{
+
+  position:absolute;
+
+  background-image: url('./profile_pic.png');
+  background-size: contain;
+
+  width: 50px;
+  height: 50px;
+
+
+  
+  border: none;
+  border-width: 0px;
+  border-radius: 50%;
+
+
+  right: 1%;
+  margin-top:34.9%;
+
+  animation-name: pic2;
+  animation-duration: 0.7s;
+
+}
+
+
+
+#cocopic{
+
+  position: absolute;
+
+  width: 25%;
+  
+ 
+  border-radius: 10%;
+  margin: 3%;
+}
+
+
+@keyframes heltext {
+  0%   {top: -50%;}
+  100% {top: 10%;}
+}
+@keyframes helpic {
+  0%   {left: -50%;}
+  100% {left: 1%;}
+}
+
+#cocotext{
+  position: absolute;
+
+  width: 25%;
+  height: 50%;
+
+  left: 32%;
+  top: 10%;
+  font-size: 180%;
+  border-radius: 10px;
+  letter-spacing: 2px;
+
+  background-color: transparent;
+
+  animation-name: heltext;
+  animation-duration: 1s;
+}
+
+#cocopic{
+  position: absolute;
+
+  width: 25%;
+  height: auto;
+
+  left: 1%;
+  top: 2%;
+  font-size: 180%;
+  border-radius: 10px;
+  letter-spacing: 2px;
+
+  background-color: transparent;
+
+  animation-name: helpic;
+  animation-duration: 1s;
+}
+
+
+@media only screen and (max-width: 600px){
+
+  #cocotext{
+    height: 10%;
+    font-size: 100%;
+    width: 100%;
+    left: 1%;
+    top: 1%;
+  }
+
+  #coba{
+    margin-top:110%;
+    border: 7px solid #0096FF;
+  }
+
+  #noba{
+    margin-top: 80%;
+    border: 7px solid #50C878;
+  }
+
+  #cocopic{
+    visibility: hidden;
+  }
+
+  #userpic{
+    visibility: hidden;
+  }
+
+  #botpic{
+    visibility: hidden;
+  }
+
+
+}
+
