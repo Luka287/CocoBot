@@ -269,8 +269,8 @@ body{
 #cocotext{
   position: absolute;
 
-  width: 25%;
-  height: 50%;
+  width: 50%;
+  height: 40%;
 
   left: 32%;
   top: 10%;
@@ -287,8 +287,8 @@ body{
 #cocopic{
   position: absolute;
 
-  width: 25%;
-  height: auto;
+  width: auto;
+  height: 50%;
 
   left: 1%;
   top: 2%;
