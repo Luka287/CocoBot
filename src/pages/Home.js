@@ -4,8 +4,7 @@ import '../styles/Home.css'
 
 const Home = () => {
 
-    return <>
-        <body>
+    return <body>
     
             <a href="#" class="scrolltop" id="scroll-top">
                 <i class='bx bx-chevron-up scrolltop__icon'></i>
@@ -13,7 +12,7 @@ const Home = () => {
     
             <header class="l-header" id="header">
                 <nav class="nav bd-container">
-                    <a href="cocobot" class="nav__logo">CocoBot</a>
+                    <a href="" class="nav__logo">CocoBot</a>
     
                     <div class="nav__menu" id="nav-menu">
                         <ul class="nav__list">
@@ -36,11 +35,11 @@ const Home = () => {
                     <div class="home__container bd-container bd-grid">
                         <div class="home__data">
                             <h1 class="home__title">კოკო</h1>
-                            <h2 class="home__subtitle">კოკო არის ჩატბოტი, რომელიც მოგაწვდით ინფორმაციას ინტერნეტის შესახებ.</h2>
-                            <a href="cocobot" class="button">ჩატბოტი</a>
+                            <h2 class="home__subtitle">კოკო არის ჩეთბოტი, რომელიც მოგაწვდით ინფორმაციას ინტერნეტის შესახებ.</h2>
+                            <a href="cocobot" class="button">ჩეთბოტი</a>
                         </div>
         
-                        <img src="assets/img/home.png" alt="" class="home__img" />
+                        <img src="" alt="" class="home__img" />
                     </div>
                 </section>
                 
@@ -49,12 +48,13 @@ const Home = () => {
                     <div class="about__container  bd-grid">
                         <div class="about__data">
                             <span class="section-subtitle about__initial">პროექტი</span>
-                            <h2 class="section-title about__initial">პროექტი შმოექტი</h2>
-                            <p class="about__description">აქ დაიწერება ინფორმაცია პროექტის შესახებ</p>
-                            <a href="https://mediatsigniereba.ge/" class="button">გაიგეთ მეტი</a>
+                            <h2 class="section-title about__initial">პროექტის შესახებ</h2>
+                            <p class="about__description">რობოტი კოკო ციფრული მოქალაქეობის გზამკვლევია. დაუსვით მას ნებისმიერი კითხვა ინტერნეტთან და სოციალურ ქსელებთან დაკავშირებით და კოკო დაუყოვნევლივ მოგწერთ პასუხს. 
+კოკოს უყვარს კომპიუტერები, რობოტები და ადამიანებთან კომუნიკაცია. სწორედ ამიტომ, სურს ყველას დახმარების ხელი გაუწოდოს.</p>
+                            <a href="https://mediatsigniereba.ge/" class="button">მედიაწიგნიერების შესახებ</a>
                         </div>
     
-                        <img src="assets/img/about.jpg" alt="" class="about__img" />
+                        <img src="" alt="" class="about__img" />
                     </div>
                 </section>
     
@@ -63,11 +63,15 @@ const Home = () => {
                         <div class="contact__data">
                             <span class="section-subtitle contact__initial">ჩვენს შესახებ</span>
                             <h2 class="section-title contact__initial">Liontech</h2>
-                            <p class="contact__description">აქ დაიწერება ინფორმაცია გუნდზე</p>
+                            <p class="contact__description">Liontech - ქ.ქუთაისის #23 საჯარო სკოლის ტექნოლოგიური კლუბია,
+                             რომლის წევრებიც აქტიურად მონაწილეობენ მრავალფეროვან ციფრულ პროექტებში. მათ მიაღწიეს არაერთ
+                              წარმატებას ტექნოლოგიური განხრით და აგრძელებენ ამ სფეროში განვითარებას.</p>
                         </div>
-    
+                        
+
                     </div>
                 </section>
+
             </main>
     
             <footer class="footer section bd-container">
@@ -105,7 +109,7 @@ const Home = () => {
 
             <script src="assets/js/main.js"></script>
         </body>
-    </>
+    
 }
 
 

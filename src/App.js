@@ -1,6 +1,5 @@
-//import './App.css';
-import ReactDOM from "react-dom/client";
-import React, {useState, createElement} from 'react';
+
+import React from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Bot from "./pages/Bot";
